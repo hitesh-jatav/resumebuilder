@@ -1,0 +1,55 @@
+.templates{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    overflow: hidden;
+}
+.templatesCards{
+    max-width: 250px;
+    max-height: 300px;
+    display: flex;
+    border: 1px solid rgb(241, 199, 195);
+    min-height: 300px;
+    min-width: 250px;
+    overflow: hidden;
+    align-items: center;
+    /* background-image: url('../../images/resume1.jpg'); */
+    /* background-repeat:no-repeat; */
+    /* background-size:cover; */
+    margin: 0px auto;
+}
+
+
+.middleBtnDiv{
+    transition: .5s ease;
+    opacity: 0;
+    margin: auto;
+    text-align: center;
+}
+.templatesCards:hover .middleBtnDiv{
+    opacity: 1;
+}
+.templatesCards:hover .coverDiv{
+    background-color: rgb(128, 124, 124);
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.3; */
+}
+.SelectResumeBtn{
+    background-color: #f4a721;
+    /* color: white; */
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: none;
+}

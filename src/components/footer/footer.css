@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+.footerclickableLinks{
+    display: flex;
+    flex-direction: row;
+}
+.footerclickableLinks a{
+    text-decoration: none;
+    color: black;
+}
+.footerclickableLinks span{
+    padding: 0px 5px
+}
+
+.footerclickableLinks a:hover {
+   color: #f4a721;
+}
+.footerAllrights{
+    padding-left: 20px;
+}
+.userAgree{
+    padding-right: 20px;
+}

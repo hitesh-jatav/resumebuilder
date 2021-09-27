@@ -1,0 +1,118 @@
+.resume3{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.resume3Wrapper{
+    padding: 10px;
+    min-height: 842px;
+    max-height: 842px;
+    min-width: 595px;
+    max-width: 595px;
+}
+.resume3Name{
+    flex: 1;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    /* text-transform: uppercase; */
+}
+.block{
+    display: block;
+}
+.caps{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: 600;
+}
+.fontSize12{
+    font-size: 12px;
+}
+.fontSize14{
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    /* align-items: center; */
+}
+.backGreen{
+    background-color: rgb(126, 207, 207);
+    width: fit-content;
+    float: center;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    /* display: block; */
+}
+
+.backBlack{
+    background-color: black;
+    width: fit-content;
+    float: center;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    /* display: block; */
+}
+.greenBorderBelow{
+    border-bottom: 2px solid rgb(126, 207, 207);
+    padding: 10px 20px;
+    width: fit-content;
+}
+.textCenter{
+    text-align: center;
+}
+.textLeft{
+    text-align: left !important;
+}
+.pady20{
+    padding: 20px 5px;
+}
+.padx10{
+    padding: 0px 10px;
+}
+.padx15{
+    padding: 0px 15px;
+}
+.contactList{
+    display: flex;
+    align-items: center;
+}
+.margTop5{
+    margin-top: 5px;
+}
+.margTop10{
+   margin-top: 10px; 
+}
+.divAll{
+    align-items: center;
+    flex: 1;
+    /* display: flex; */
+    text-align: center;
+    width: 100%;
+
+}
+.divAllItem{
+    display: flex;
+    align-self: center;
+    /* margin: auto 0px; */
+    text-align: center;
+}
+.widthFull{
+    width: auto;
+}
+.flex3{
+    flex: 3;
+}
+.flex1{
+    flex: 1;
+}
+.tableData{
+    margin: 0px !important;
+}

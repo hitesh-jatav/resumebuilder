@@ -1,0 +1,45 @@
+.about{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.aboutInfo{
+    flex: 2;
+    padding: 30px;
+}
+.aboutVect{
+    flex: 1;
+}
+.aboutInfoHead{
+    font-size: 50px;
+}
+
+.colorRed{
+    font-size: 55px;
+    color: #271654;
+}
+
+.aboutImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.aboutVect{
+    float: right;
+    text-align: right !important;
+}
+.aboutSiteInfo{
+    margin-top: 15px;
+    width: 80%;
+    font-size: 20px;
+    color: gray;
+    display: block;
+}
+
+.aboutVect a{
+    /* text-decoration: none; */
+    color: gray;
+    font-size: 12px;
+text-decoration: none;
+}

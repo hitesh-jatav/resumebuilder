@@ -1,0 +1,120 @@
+.resume2{
+        text-align: center;     
+        margin: 0px auto;
+        width: 100%;
+        margin: 10px auto;
+        justify-content: space-evenly;
+      }
+
+.resume2Wrapper{
+    /* padding: 5px; */
+    min-width: 595px;
+    max-width: 595px;
+    min-height: 842px;
+    max-height: 842px;
+    margin:auto 0px;
+    margin: 0px auto;
+
+    /* border: 1px solid black; */
+}
+.resume2Wrapper{
+    display: flex;
+}
+.resume2leftSec{
+        /* flex: 2; */
+        text-align: left;
+        padding: 10px 20px;
+        background-color: #D9D9D9;
+}
+
+.resume2RightSec{
+    /* flex: 5; */
+    text-align: left;
+    padding: 0px 20px;
+
+
+}
+.caps{
+    text-transform: uppercase;
+}
+.bolds{
+    font-weight: 600;
+}
+.italics{
+    font-style: italic;
+}
+.fontsize16{
+    font-size: 18px;
+}
+.fontsize12{
+    font-size: 14px;
+}
+.fontsize10{
+    font-size: 11px;
+}
+.padtop10{
+    padding-top: 10px;
+}
+.margin-y5{
+    margin: 5px 0px;
+}
+.margin-y10{
+    margin: 10px 0px;
+}
+.flexDivs{
+    display: flex;
+    align-items: center;
+}
+.resumeIcons{
+    margin-right: 5px;
+}
+.makeBlock{
+    display: block;
+}
+.resume2contacts{
+    margin: 25px 0px;
+}
+
+.resume2Post{
+    /* margin: 20px 0px; */
+    margin-bottom: 30px;
+}
+
+.resume2RightSec > li {
+    padding-left: 20px;
+    /* text-align: right; */
+    /* float: right; */
+}
+
+
+
+
+
+
+
+
+
+.resume2-OkDiv{
+    text-align: center;
+}
+.resume2-OkDiv > button:hover{
+    background-color: #f4a721;
+    color: #fff;
+  }
+  
+  .resume2-OkDiv > button{
+    /* display: block; */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    border: none;
+    background-color: #271654;
+    color: #f4a721;
+    width: 70px;
+  }
+  button > a {
+    text-decoration: none;
+    color: inherit;
+  }

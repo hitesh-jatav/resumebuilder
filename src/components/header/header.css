@@ -1,0 +1,37 @@
+.header{
+    /* background-color: gray; */
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* text-transform: uppercase; */
+}
+.headerSiteName{
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerTopLinks a{
+    text-decoration: none;
+    color: #271654;
+    padding: 0px 5px;
+}
+.headerLogo{
+    height: 50px;
+}
+.headerSiteName a{
+    text-decoration: none;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #271654;
+    /* background-color: #F4A722; */
+}
+
+.headerTopLinks a:hover{
+    color: #f4a721;
+    font-size: 20px;
+}

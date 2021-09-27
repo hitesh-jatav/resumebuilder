@@ -1,0 +1,147 @@
+.aboveResume{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: fit-content;
+}
+.resume1 {
+  display: flex;
+  width: 595px;
+  height: 842px;
+  margin: auto;
+  /* font-family: sans-serif !important; */
+}
+
+.resume1SectionLeft{
+  padding: 10px 10px;
+  padding-right: 30px;
+  flex: 5;
+  padding-bottom: 50px;
+}
+.resume1SectionRight{
+  background-color: blue;
+  flex: 3;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.resume1OkDiv{
+  /* display: flex; */
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.resume1Leftnames{
+  display: flex;
+  text-transform: uppercase;
+}
+.editable{
+  font-size: 12px;
+}
+.fname, .lname{
+  display: inline;
+  font-size: 30px;
+}
+.resume1BelowLine{
+  color: blue;
+  font-weight: bold;
+  height: 2px;
+  background-color: blue;
+}
+.lname{
+  color: blue;
+  padding: 0px 10px;
+}
+.resume1leftPost{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.resume1Headings{
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.resume1addData{
+  font-size: 12px;
+  outline: none;
+  
+}
+
+.ul-list > li{
+  font-size: 10px;
+}
+.resume1profileData{
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+.resume1workExperienceDiv{
+  display: flex;
+  justify-content: space-between;
+}
+.resme1workExperienceYears{
+  flex: 1;
+}
+.resume1workExperienceData{
+  flex: 3;
+}
+.boldText{
+  font-weight: bold;
+}
+.resume1imgeDiv{
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+.resume1Image{
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  border: 5px solid rgb(42, 161, 230);
+  object-fit: cover;
+  cursor: pointer;
+}
+.resume1RightSectionWrapper{
+  margin-top: 30px;
+    padding: 0px 30px;
+}
+.resume1Rightheadings{
+  text-transform: uppercase;
+}
+.resume1RightContactLines{
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+.resume1RightSectionMiniHeads{
+  font-size: 14px;
+}
+.resume1RightSectionMiniData{
+  color: rgb(207, 203, 203);
+}
+.resume1rightSectionHRLine{
+  color: rgb(207, 203, 203) !important;
+  background-color: rgb(207, 203, 203) !important;
+  opacity: 0.6;
+}
+.resume1OkDiv > button{
+  /* display: block; */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  border: none;
+  background-color: #271654;
+  color: #f4a721;
+  width: 70px;
+}
+button > a {
+  text-decoration: none;
+  color: inherit;
+}
+.resume1OkDiv > button:hover{
+  background-color: #f4a721;
+  color: #fff;
+}
+
